@@ -1,0 +1,43 @@
+body{
+  background-image: url(../img/fondo.jpg);
+}
+#logo img{
+  width: 200px;
+  text-align: center;
+  margin-top: 10px;
+}
+#nav{
+  margin-top: 2%;
+  text-align: right;
+  padding-right: 15px;
+
+}
+#slogan{
+  color: rgb(216, 236, 223);
+  text-align: left;
+  margin-top: 20px;
+}
+#redes a img{
+  width: 100%;
+
+}
+#redes{
+  background-color: rgba(42, 106, 191, 0.42);
+}
+.imgs{
+  background-color: rgba(45, 191, 42, 0.42);
+}
+.imgs img{
+  width: 100%;
+}
+@media (max-width:768px) and (min-width:600px) {
+  #slogan{
+    margin-left: 55px;
+  }
+}
+@media (max-width:600px){
+  #redes a img{
+    width: 50px;
+    padding: 10px;
+  }
+}
