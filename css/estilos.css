@@ -5,6 +5,8 @@ body{
   width: 200px;
   text-align: center;
   margin-top: 10px;
+  border-radius: 100px;
+  box-shadow: 3px 3px white;
 }
 #nav{
   margin-top: 2%;
@@ -19,16 +21,30 @@ body{
 }
 #redes a img{
   width: 100%;
+  border-radius: 30px;
+  box-shadow: 3px 3px black;
 
-}
-#redes{
-  background-color: rgba(42, 106, 191, 0.42);
-}
-.imgs{
-  background-color: rgba(45, 191, 42, 0.42);
 }
 .imgs img{
   width: 100%;
+}
+.texto{
+  color: white;
+  background-color: rgba(9, 13, 26, 0.84);
+}
+.texto img{
+  width: 50%;
+  margin-right: 10px;
+}
+.perfil{
+  background-color: rgba(223, 238, 230, 0.53);
+}
+.perfil h5{
+  text-align: center;
+}
+.perfil img{
+  width: 50% ;
+  margin: 5% 30% 10%;
 }
 @media (max-width:768px) and (min-width:600px) {
   #slogan{
